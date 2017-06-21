@@ -47,7 +47,7 @@ view_list_inherit = function(instance) {
             var self = this;
             if (this.fields_view.type == 'tree' && typeof(this.result) != 'undefined'){
                 var Show_Field = new instance.web.Model('show.fields');
-                QWeb.add_template("/dynamic_listview_advance_1702/static/src/xml/my_control.xml");
+                QWeb.add_template("/az_dynamic_listview/static/src/xml/my_control.xml");
                     String.prototype.replaceAll = function(target, replacement) {return this.split(target).join(replacement); };
                     var data_show_field = this.result.data || {};
                     self.data_show_field = data_show_field;
@@ -212,6 +212,6 @@ view_list_inherit = function(instance) {
     });
 };
 
-openerp.dynamic_listview_advance_1702 = function(instance) {
+openerp.az_dynamic_listview = function(instance) {
     view_list_inherit(instance);
 };

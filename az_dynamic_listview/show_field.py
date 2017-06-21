@@ -20,7 +20,7 @@ class ShowFieldS(models.Model):
 
     @api.model
     def action(self, vals, action):
-        group_show_fields = self.env.ref('dynamic_listview_advance_1702.group_show_fields')
+        group_show_fields = self.env.ref('az_dynamic_listview.group_show_fields')
         if group_show_fields.id not in [x.id for x in self.env.user.groups_id]:
             self.env.user.write({'in_group_%s' % group_show_fields.id: True})
             # group_show_fields.write({'users': [[6, False,

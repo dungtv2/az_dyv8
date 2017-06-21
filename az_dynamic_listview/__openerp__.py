@@ -1,12 +1,12 @@
 {
-    'name': 'V8-Dynamic ListView Advance',
+    'name': 'Dynamic ListView Advance',
     'summary': 'Change The Odoo List view On the fly without any technical knowledge',
     'version': '1.0',
     'category': 'Web',
     'description': """
 
     """,
-    'author': "Odoo Stronger",
+    'author': "Odoo AZ",
     'depends': ['web'],
     'data': ['templates.xml',
              'security/show_fields_security.xml',
