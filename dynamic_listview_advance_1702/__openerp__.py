@@ -1,12 +1,12 @@
 {
-    'name': 'V8-Dynamic ListView Advance',
-    'summary': 'Change The Odoo List view On the fly without any technical knowledge',
+    'name': 'pos inventory',
+    'summary': '',
     'version': '1.0',
     'category': 'Web',
     'description': """
 
     """,
-    'author': "Odoo Stronger",
+    'author': "",
     'depends': ['web'],
     'data': ['templates.xml',
              'security/show_fields_security.xml',
@@ -18,6 +18,6 @@
     'application': False,
     'qweb': ['static/src/xml/listview_button_view.xml'],
     'images': [
-        'images/listview_v8.png',
+       
     ],
 }
